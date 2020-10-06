@@ -1,0 +1,49 @@
+ul{
+	list-style: none;
+	overflow: hidden;
+}
+li{
+float: right;
+}
+li a {
+color: black;
+display: black;
+text-align: center;
+padding: 10px 10px;
+text-decoration: none;
+font-size: 18px;
+}
+li>a:hover{
+	text-decoration: underline;
+}
+.logo{
+	margin-top:15px;
+	margin-bottom:20px; 
+}
+.bar{
+	margin-top: 16px;
+	width: 574px;
+	border-radius: 20px;
+	border:1px solid #ddccdd;
+}
+.bar:hover{
+	box-shadow: 1px 1px 8px 1px #ddccdd;
+
+}
+.searchbar{
+	height:20px;
+	margin-top: 16px;
+	border: none;
+	width: 500px;
+	font-size:20px;
+	outline: none;
+}
+.button{
+	margin-top: 30px;
+}
+.button:hover{
+	box-shadow: 1px 1px 8px 1px #ddccdd;
+border: 1px solid #ddccdd;
+outline: none;
+width: 100px;
+}
